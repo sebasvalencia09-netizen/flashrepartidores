@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "next.config.js",
+      "use": "@vercel/next"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/"
+    }
+  ],
+  "alias": [
+    "flashrepartidores.com"
+  ],
+  "redirects": [
+    {
+      "source": "https://www.flashrepartidores.com/(.*)",
+      "destination": "https://flashrepartidores.com/$1",
+      "permanent": true
+    }
+  ]
+}
