@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <main className="p-8 space-y-12">
-      {/* Hero */}
+      {/* Hero o Bienvenida */}
       <section className="text-center">
         <h1 className="text-4xl font-bold text-blue-600 mb-4">
           Bienvenido a Flash Repartidores 🚀
