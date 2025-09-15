@@ -1,0 +1,58 @@
+diff --git a/index.html b/index.html
+new file mode 100644
+index 0000000..e69de29
+--- /dev/null
++++ b/index.html
+@@ -0,0 +1,4 @@
++<!DOCTYPE html>
++<html lang="en">
++  <head>...</head>
++  <body>...</body>
+diff --git a/pages/_document.js b/pages/_document.js
+deleted file mode 100644
+index 8e3e2c1..0000000
+--- a/pages/_document.js
++++ /dev/null
+@@ -1,17 +0,0 @@
+-import { Html, Head, Main, NextScript } from 'next/document'
+-
+-export default function Document() {
+-  return (
+-    <Html lang="en">
+-      <Head>
+-        <meta charSet="UTF-8" />
+-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+-        <link rel="icon" href="/favicon.ico" />
+-      </Head>
+-      <body>
+-        <Main />
+-        <NextScript />
+-      </body>
+-    </Html>
+-  )
+-}
+diff --git a/pages/index.js b/pages/index.js
+deleted file mode 100644
+index 4f1a7d2..0000000
+--- a/pages/index.js
++++ /dev/null
+@@ -1,20 +0,0 @@
+-import Head from "next/head";
+-
+-export default function Home() {
+-  return (
+-    <>
+-      <Head>
+-        <title>Next.js Boilerplate 🚀</title>
+-        <meta
+-          name="description"
+-          content="Boilerplate inicial con Next.js listo para desarrollar."
+-        />
+-      </Head>
+-      <main>
+-        <h1>Bienvenido a Next.js Boilerplate 🚀</h1>
+-        <p>Este archivo reemplaza tu antiguo index.html.</p>
+-      </main>
+-    </>
+-  )
+-}
